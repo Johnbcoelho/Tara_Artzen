@@ -11,7 +11,7 @@ function Projects() {
       window.scroll(0, 0)
   }
 
-  const ProjectsData3 = ProjectsData
+  const ProjectsData3 = ProjectsData.slice(0,3)
 
   return (
     <section className='Projects' id='projetos'>
