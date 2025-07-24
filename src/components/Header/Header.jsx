@@ -49,7 +49,7 @@ function Header() {
                 <nav className="pcNav">
                     <a href="#home">Home</a>
                     <a href="#sobre">Sobre</a>
-                    <a href="#projetos">Projetos</a>
+                    <a href="#projetos">Trabalhos</a>
                     <a href="#contato">Contato</a>
                 </nav>
                 <div className="toggleMobileMenu" id="ToggleMobileMenu">
@@ -60,8 +60,8 @@ function Header() {
                     <nav id="MOBILENAV">
                         <a href="#home">Home</a>
                         <a href="#sobre">Sobre</a>
-                        <a href="#projetos">Projetos</a>
-                        <a href="#trabalho">Trabalho</a>
+                        <a href="#projetos">Trabalhos</a>
+                        
                         <a href="#contato">Contato</a>
                     </nav>
                 </div>

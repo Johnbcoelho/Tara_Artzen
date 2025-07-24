@@ -19,7 +19,7 @@ const Data = {
     LinkedinLink: LINK_DO_SEU_LINKEDIN,
     GitHubLink: LINK_DO_SEU_GITHUB,
     EmailLink: LINK_PARA_DIRECIONAR_PARA_SEU_EMAIL (mailto:SEU_EMAIL),
-}
+
 
 export default Data
 ```

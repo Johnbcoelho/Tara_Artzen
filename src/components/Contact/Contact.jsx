@@ -1,5 +1,5 @@
 import './Contact.css'
-import { FaWhatsapp , FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaWhatsapp , FaInstagram} from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 
 import Data from '../../Const';
@@ -17,14 +17,21 @@ function Contact() {
         <div className='container2'>
             <p>Que tal dizer oi?</p>
             <h1>Entre em contato</h1>
-            <p>Ter um site pode aumentar significativamente suas vendas e transmitir mais credibilidade aos seus clientes. Todas as grandes empresas possuem um site. Não fique para trás de seus concorrentes</p>  
+            <p>Se você ficou com alguma dúvida sobre nossos produtos, quer encomendar uma peça personalizada ou simplesmente deseja conversar sobre nossas criações, será um prazer te ouvir! <br /> <br />🌸  Envie uma mensagem diretamente pelo WhatsApp ou e-mail.
+
+ <br /> <br />📦 Personalizamos chapéus, bolsas, acessórios e itens sob medida. Entregas via Correios! <br /> <br />
+💌 Respondemos com carinho e agilidade de segunda a sexta, das 9h às 18h. <br /> <br />
+
+✨ Obrigada por apoiar o feito à mão e fortalecer o trabalho artesanal com amor e consciência. <br /> <br />
+
+Com carinho,
+Equipe T⭐️RA Arte Zen – Vestuário e Acessórios Artesanais.</p>  
             <div className='optionsOfContact'>
               <a href={Data.WhatsappLink} rel="noreferrer" target="_blank" title="Whatsapp"><FaWhatsapp /></a>
-              <a href={Data.LinkedinLink} rel="noreferrer" target="_blank" title="Linkedin"><FaLinkedin /></a>
-              <a href={Data.GitHubLink} rel="noreferrer" target="_blank" title="Github"><FaGithub /></a>
               <a href={Data.EmailLink} rel="noreferrer" target="_blank" title="Gmail"><MdOutlineEmail /></a>
+              <a href={Data.InstaLink} rel="noreferrer" target="_blank" title="Insta"><FaInstagram/></a>
             </div>
-            <a href="./cv/curriculo.docx" download="curriculo.docx" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="-80">Download Curriculo</a>
+           
         </div>
     </section>
   )

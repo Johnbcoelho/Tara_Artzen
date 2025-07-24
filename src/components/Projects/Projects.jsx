@@ -11,14 +11,14 @@ function Projects() {
       window.scroll(0, 0)
   }
 
-  const ProjectsData3 = ProjectsData.slice(0,3)
+  const ProjectsData3 = ProjectsData
 
   return (
     <section className='Projects' id='projetos'>
         <div className='container2'>
             <h2 className='title'>
               <TiArrowSortedUp />
-              Alguns do meus projetos
+              Meus Encantos Artesanais:
             </h2>
             <div className='featuredProjects'>
               {ProjectsData3.map((data, index) => (
@@ -29,7 +29,7 @@ function Projects() {
                     />
                 ))}
             </div>
-            <Link to="projetos" onClick={() => {scrollZero()}}>Ver mais projetos</Link>
+            <Link to="projetos" onClick={() => {scrollZero()}}>Ver mais trabalhos:</Link>
         </div>
     </section>
   )

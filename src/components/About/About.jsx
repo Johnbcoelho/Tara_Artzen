@@ -21,52 +21,20 @@ function About() {
         <div className='container2'>
             <h2 className='title'>
                 <TiArrowSortedUp />
-                Sobre mim
+                Sobre nós:
             </h2>
 
             <div className='info'>
                 <div className='desc'>
-                    <p>Olá, me chamo <span>João Gabriel.</span></p>
-                    <p>Sou um desenvolvedor Front-End apaixonado por criar interfaces web atraentes e funcionais. Com uma sólida base em <span>HTML</span> e <span>CSS</span>, tenho a habilidade de transformar designs em experiências digitais cativantes e responsivas. Estou aperfeiçoando meus conhecimentos em <span>JavaScript</span> para adicionar interatividade e dinamismo aos meus projetos. Atualmente, expandindo meus estudos em tecnologias como <span>React</span> e <span>Node</span>. </p>
-                    <div className='skillsContainer'>
-                        <h3>Habilidades</h3>
-                        <div className='skills'>
-                            <div className='skill'>
-                                <FaHtml5 />
-                                <p>HTML</p>
-                            </div>
-                            <div className='skill'>
-                                <FaCss3Alt />
-                                <p>CSS</p>
-                            </div>
-                            <div className='skill'>
-                                <RiJavascriptFill />
-                                <p>JavaScript</p>
-                            </div>
-                           
-                            <div className='skill'>
-                                <FaReact />
-                                <p>ReactJS</p>
-                            </div>
-                            <div className='skill'>
-                                <FaReact />
-                                <p>React Native</p>
-                            </div>
-                           
-                            <div className='skill'>
-                                <IoLogoGithub />
-                                <p>Github</p>
-                            </div>
-                            <div className='skill'>
-                                <FaNodeJs />
-                                <p>NodeJS</p>
-                            </div>
-                            <div className='skill'>
-                                <SiTailwindcss />
-                                <p>TailwindCSS</p>
-                            </div>
-                        </div>
-                    </div>
+                    <p>Olá, nos chamamos <span>Tara Art Zen!</span></p>
+                    <p>Seja bem-vindo(a) à T⭐️RA Arte Zen — um espaço onde arte, amor e tranquilidade se entrelaçam em cada ponto! 🧘🏻‍♀️✨
+
+Somos uma marca de vestuário artesanal com alma zen, nascida em Campo Grande - MS, que celebra a beleza do feito à mão e o encanto dos detalhes. 💗
+
+Aqui você encontra bolsas, chapéus, toucas, xales e muitas outras peças únicas, todas criadas com muito carinho através da técnica do crochê. Cada item carrega dedicação, cuidado e a energia suave de quem acredita na arte como forma de expressão e afeto.
+
+🌿 Estamos apenas começando essa jornada, mas com o coração cheio de gratidão e vontade de espalhar beleza por onde for. Enviamos nossos produtos com todo cuidado para todo o Brasil, através dos Correios. </p>
+                    
                 </div>
                 <div className='profileImg'>
                     <div className='img' data-aos="fade-up-left" data-aos-duration="1000"></div>

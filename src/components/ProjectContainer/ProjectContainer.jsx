@@ -13,7 +13,7 @@ function ProjectContainer({direction, data}) {
         </a>
         <div className='projectInfo'>
             <div className='projectHeader'>
-                <p>Projeto em destaque</p>
+                <p>Trabalhos em destaque</p>
                 <h2>{name}</h2>
             </div>
             <div className='projectDesc'>

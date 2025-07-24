@@ -10,8 +10,8 @@ function AllProjectsPage() {
     <section className="AllProjectsPage">
         <FixedContacts />
         <div className='container2'>
-            <h2 className='title'>Meus Projetos</h2>
-            <p>Confira abaixo alguns dos meus principais projetos. Para voltar para a página inicial <Link to="/">clique aqui!</Link></p>
+            <h2 className='title'>Meus Trabalhos:</h2>
+            <p>Confira abaixo alguns dos meus principais trabalhos. Para voltar para a página inicial <button onClick = {()=> window.history.back()}> {'Clique Aqui.'} </button></p>
             <div className='allProjects'>
                 {ProjectsData.map((data, index) => (
                     <ProjectContainer
