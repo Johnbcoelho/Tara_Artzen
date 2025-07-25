@@ -14,8 +14,8 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path='/new_portifolio' element={<Layout />}/>
-          <Route path='/new_portifolio/projetos' element={<AllProjectsPage />}/>
+          <Route path='/tara_artzen' element={<Layout />}/>
+          <Route path='/tara_artzen/projetos' element={<AllProjectsPage />}/>
         </Routes>
       </BrowserRouter>
     </div>

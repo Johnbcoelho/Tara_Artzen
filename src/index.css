@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="styleshee');
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:  "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  font-weight:bold ;
 }
 
 :root{
-  --cor-principal: rgb(194, 22, 105);
-  --cor-2: white;
-  --cor-3: rgb(194, 22, 105);
-  --background: rgba(192, 94, 9, 0.805);
+  --cor-principal: rgb(243, 54, 145);
+  --cor-2: rgba(192, 94, 9, 0.805);
+  --cor-3: rgb(244, 92, 166);
+  --background: rgba(247, 148, 61, 0.805);
 }
 
 body{
   background-color: var(--background);
-  color: white;
+  color: rgba(192, 94, 9, 0.805);
   max-width: 100%;
 }
 

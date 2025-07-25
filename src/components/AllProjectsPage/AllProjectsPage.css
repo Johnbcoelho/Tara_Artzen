@@ -5,13 +5,13 @@
 
 .AllProjectsPage > .container2 > p{
     margin: 1em 0;
-    color: var(--cor-2);
+    color: whites;
      text-align: justify;
   
 }
 
 .AllProjectsPage > .container2 > p > a{
-    color: var(--cor-principal);
+    color: white;
    
 }
 

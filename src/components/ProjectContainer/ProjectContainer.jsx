@@ -20,25 +20,7 @@ function ProjectContainer({direction, data}) {
                 {desc ? desc.map((e) => (
                     <p key={`${name}${Math.floor(Math.random() * 100)}`}>{e}</p>
                 )) : ""}
-            </div>
-            <div className='projectSkills'>
-                {skills ? skills.map((e) => (
-                    <p key={`${name}${Math.floor(Math.random() * 100)}`}>{e}</p>
-                )) : ""}
-            </div>
-            <div className='projectLinks'>
-                
-                {
-                    githubPages == true ?                 
-                    <a 
-                        href={`${gitName}/`} 
-                        title='Acessar Projeto' 
-                        rel="noreferrer" 
-                        target='_black'
-                        ><TbExternalLink />
-                    </a> 
-                    : ""
-                }
+          
             </div>
         </div>
     </div>

@@ -27,11 +27,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  font-weight:bold ;
 }
 
 .ProjectContainer .projectInfo .projectHeader > p{
-    font-family: 'Space Mono', monospace;
-    color: var(--cor-principal);
+   font-family: "Ubuntu", sans-serif;
+    color: rgb(244, 92, 166);
     font-size: 0.7em;
 }
 
